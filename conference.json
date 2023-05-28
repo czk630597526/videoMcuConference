@@ -1,0 +1,9 @@
+{
+  "server": {
+    "server_ip": "192.168.1.168",
+    "udp_start_port":50000,
+    "udp_end_port":60000,
+    "log_level": 4,
+    "stun_url": "192.168.1.143:3478"
+  }
+}
