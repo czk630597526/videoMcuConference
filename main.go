@@ -475,9 +475,4 @@ func main() {
 	MainConferenceMgr()
 	//MainConference()
 	//TestReadTmp()
-	//fmt.Printf("%s\n", time.Now().String())
-	//for i := 0; i < 100; i++ {
-	//	time.Sleep(time.Millisecond * 30)
-	//}
-	//fmt.Printf("%s\n", time.Now().String())
 }
