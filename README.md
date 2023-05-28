@@ -4,7 +4,7 @@ video mcu conference
 cgo是golang中一个复杂但是有趣，并且功能非常强大的特性，可以在某些底层场景使用千锤百炼的c库，在上层使用golang进行业务封装，提高了开发效率，但苦于没有一些简单的教程，因此本人开发了这么一个小demo，用于大家学习与交流
 
 libvideo：
-  此包调用了c库，libmedia.so，并且将c函数封装成go可以调用的版本，需要用libmedia的c代码编译出来，代码后面提交，现在可以直接使用lib包里so调用
+  此包调用了c库，libmedia.so，并且将c函数封装成go可以调用的版本，需要用libmedia的c代码编译出来，在libvideoGo中你可以选择编译他们，如果不想编译可以直接使用lib包里so调用
 
 libvideo_codec:
   一些rtp转nal的基础操作
